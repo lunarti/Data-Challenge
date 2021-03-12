@@ -32,7 +32,7 @@ Fazer a conexão da API acima (caso GPTW do RH), listando os colaboradores no Po
 
 Para finalizar esse desafio, você precisará:
 
-1. Criar uma conta trial em nosso produto (​https://app.pontomaisweb.com.br/​) (Token: ​$2a$10$FgvbKMpP5PpHG/PBrb8KLOZZLqMIoPCYakT.04lyDJc/7SIKs2sxu)
+1. Criar uma conta trial em nosso produto (https://app.pontomaisweb.com.br/) `(Token: $2a$10$FgvbKMpP5PpHG/PBrb8KLOZZLqMIoPCYakT.04lyDJc/7SIKs2sxu)`
 2. Acessar o marketplace e ativar a API (menu marketplace / extensões / API)
 3. Pegar o token e passar como um dos parâmetros do Header (explicado na
    documentação acima)
