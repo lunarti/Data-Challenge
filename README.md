@@ -1,7 +1,3 @@
-## Readme do Repositório
-
-- Capturas do resultado final do Projeto
-
 # Data Challenge 20210312 Victor Lunarti Valadão
 
 Desafio Técnico realizado para a oportunidade Data Analyst em DeepESG.
@@ -18,37 +14,41 @@ Contida no Jupyter Notebook: 'parte 1.2'.
 
 Imagine que você recebeu uma demanda para gerar indicadores do GPTW para o RH com pelo menos algumas visões como:
 
-Distribuição de colaboradores por orientação sexual
-Distribuição de colaboradores por escolaridade
-Distribuição de colaboradores por faixa etária
+- Distribuição de colaboradores por orientação sexual
+- Distribuição de colaboradores por escolaridade
+- Distribuição de colaboradores por faixa etária
 
 Baseada nessa documentação, quais estruturas de dados você criaria para atender esta demanda?
 
 Desenvolveria Scripts para automatização das consultas na API, logo estabeleceria a coordenação desses scripts utilizando o Apache Airflow resultando no seguinte banco de dados:
 
-Tabela Colaborador
+|Tabela Colaborador |  | |
+--- | --- | ---|
+|user_id|int|FK|
+|job_titlenb              |int|FK|
+|first_name|varchar(50)||
+|last_name|varchar(50)||
+|birthdate|date|
+|gender|int|
 
-user_id int FK
-job_title int FK
-first_name varchar(50)
-last_name varchar(50)
-birthdate date
-gender int
+Os nomes dos atributos foram retirados da documentação a fim de exibir os requisitos a serem extraídos da API.
 
-Tabela Cargo
+|Tabela Cargo |  | |
+--- | --- | ---|
+|job_title|int|FK|
+|cbo|code||
 
-job_title int PK
-cbo code
+A Escolaridade não foi encontrada na documentação, para isso escolhi o CBO para estimar uma possível escolaridade através do cargo exercido pelo COlaborar.
 
 Posteriormente geraria os visuais utilizando Python ou Power BI para gerar os seguintes gráficos:
 
-1. Distribuição de colaboradores por orientação sexual:
+- Distribuição de colaboradores por orientação sexual:
 Gráfico de Barras
 
-2.Distribuição de colaboradores por escolaridade
+- Distribuição de colaboradores por escolaridade
 Gráfico de Pizza
 
-3.Distribuição de colaboradores por faixa etária
+- Distribuição de colaboradores por faixa etária
 Histograma
 
 ## Desafio Extra Excell
