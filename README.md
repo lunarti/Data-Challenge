@@ -43,14 +43,11 @@ A Escolaridade não foi encontrada na documentação, para isso escolhi o CBO pa
 
 Posteriormente geraria os visuais utilizando Python ou Power BI para gerar os seguintes gráficos:
 
-- Distribuição de colaboradores por orientação sexual:
-Gráfico de Barras
+- Distribuição de colaboradores por orientação sexual: Gráfico de Barras
 
-- Distribuição de colaboradores por escolaridade
-Gráfico de Pizza
+- Distribuição de colaboradores por escolaridade: Gráfico de Pizza
 
-- Distribuição de colaboradores por faixa etária
-Histograma
+- Distribuição de colaboradores por faixa etária: Histograma
 
 ## Desafio Extra Excell
 
