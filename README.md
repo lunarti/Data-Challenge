@@ -32,13 +32,14 @@ Desenvolveria Scripts para automatização das consultas na API, logo estabelece
 |gender|int|
 
 Os nomes dos atributos foram retirados da documentação a fim de exibir os requisitos a serem extraídos da API.
+O que se entende por Orientação Sexual não é definido por gênero, porém apenas este campo se encontra na documentação.
 
 |Tabela Cargo |  | |
 --- | --- | ---|
-|job_title|int|FK|
+|job_title|int|PK|
 |cbo|code||
 
-A Escolaridade não foi encontrada na documentação, para isso escolhi o CBO para estimar uma possível escolaridade através do cargo exercido pelo COlaborar.
+A Escolaridade não foi encontrada na documentação, para isso escolhi o CBO para estimar uma possível escolaridade através do cargo exercido pelo Colaborador.
 
 Posteriormente geraria os visuais utilizando Python ou Power BI para gerar os seguintes gráficos:
 
