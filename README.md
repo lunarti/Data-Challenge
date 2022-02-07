@@ -58,8 +58,8 @@ ARREDMULTB(número, significância)
 ARREDMULTB(DIA(MINUTO(A1/38)/2+56)&"/5"&"/"&A1;7)-34
 
 Arrendonda DIA(MINUTO(A1/38)/2+56)&"/5"&"/"&A1 para baixo até o múltiplo mais próximo de 7.
-1: Divide o Ano por 38 e converte em minutos, em sequência divide por 2 e soma 56.
-2: Transforma o resultado de (1) em dias e concatena /5 e /Ano, transformando em uma data. 
-3: Arredonda a data obtida em (2) para o múltiplo mais próximo de 7 (semana) -> equinócio
-4: Subtrai -34 dias e obtém o resultado final -> primeiro domingo depois da lua cheia depois do equinócio vernal.
+1. Divide o Ano por 38 e converte em minutos, em sequência divide por 2 e soma 56.
+2. Transforma o resultado de (1) em dias e concatena /5 e /Ano, transformando em uma data. 
+3. Arredonda a data obtida em (2) para o múltiplo mais próximo de 7 (semana) -> equinócio
+4. Subtrai -34 dias e obtém o resultado final -> primeiro domingo depois da lua cheia depois do equinócio vernal.
 
